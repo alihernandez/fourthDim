@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const nodemailer = require('nodemailer');
-
+const dotenv = require('dotenv');
+dotenv.config();
 
 
 // in order to send mail you have to follow three steps:
@@ -32,8 +33,8 @@ router.post('/contact', (req, res)=> {
 
         //authenticate
         auth:{
-            user: 'ali.hernandez9two@gmail.com',
-            pass: 'Future808!'
+            user: process.env.user,
+            pass: process.env.pass
         }
     })
 
