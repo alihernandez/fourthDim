@@ -6,7 +6,7 @@
     "server":"nodemon server.js",
     "client":"yarn start --cwd client",
     "dev":"concurrently \"yarn run  server\" \"yarn start client\"",
-    "heroku-postbuild":"YARN_CONFIG_PRODUCTION=false yarn install --cwd client && yarn run build --cwd client"
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "repository": "git@github.com:alihernandez/react-cotactForm.git",
   "author": "alihernandez <ali.hernandez9two@gmail.com>",
