@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css";
-import imgBack from "../../images/im4.jpg";
+import ivy from "../../images/ivy.jpeg";
 import load1 from "../../images/load2.gif";
 import axios from "axios";
 import { toast } from "react-toastify";
@@ -70,8 +70,8 @@ const Contact = () => {
 
         <div className="back-form">
           <div className="img-back">
-            <h4>Send your message</h4>
-            <img src={imgBack} alt="" />
+            <h4>Contact us today!</h4>
+            <img src={ivy} alt="" className="contactImg"/>
           </div>
 
           <form onSubmit={formSubmit}>

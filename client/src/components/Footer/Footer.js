@@ -30,7 +30,7 @@ const Footer = () => {
   
          
   
-          <Link to={'/'}>
+          <Link to={'/contact'}>
           <Button className="contactBtn">Contact</Button> 
           </Link>
           
