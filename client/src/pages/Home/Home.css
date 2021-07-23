@@ -3,6 +3,7 @@
     background-attachment: fixed;
     background-size: 100% 100%;
     min-height: 100%;
+    font-family: Nunito_Sans;
 }
 
 .homeContent{
@@ -31,3 +32,6 @@
     align-self: center;
 }
 
+.title {
+    font-family: Halant;
+}

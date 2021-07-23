@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   
+  
   /* background-color: #fbf9ec; */
   /* height: 100%; */
 }
 
+p {
+  font-family: Nunito_Sans;
+}

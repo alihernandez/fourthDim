@@ -1,16 +1,24 @@
 .womensMain {
     display: flex;
     flex-direction: column;
-    background-color: #b96b42;
+    background-color: #e59885;
     opacity: 0.9;
     padding: 3%;
     
 }
 .womensMainCont {
-    border: bisque;
+    
+    border: #e59885;
     border-style: double;
-    background-color: #b96b42;
-    border-width: 4px;
+    box-shadow: #b37655;
+    background-image: url("../../images/fourMom.jpeg") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75% 100%;
+    min-height: 100%;
+    background-color:  #ecb1a2;
+    border-width: 6px;
     max-height: 20%;
     max-width: 60%;
     margin: auto 0;
@@ -28,6 +36,10 @@
     justify-content: center;
     align-self: center;
     padding:2%;
+}
+
+.crdBod {
+    opacity: 0.9;
 }
 
 #tops {

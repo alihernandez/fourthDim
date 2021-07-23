@@ -22,7 +22,7 @@ export default function Womens(props) {
     <div className="womensMain">
         
         <div className="womensMainCont">
-      <Card className="womensCard" style={{backgroundColor: '#fbf9ec'}}>
+      <Card className="crdBod" style={{backgroundColor: '#fbf9ec'}}>
         <CardImg className="crd" src={womensT} alt="Card image cap" />
         <CardBody>
           <CardTitle tag="h5">Women's Tops</CardTitle>
@@ -37,11 +37,11 @@ export default function Womens(props) {
       </Card>
      <br />
     <br />
-      <Card className="womensCard" style={{backgroundColor: '#fbf9ec'}}>
+      <Card className="crdBod" style={{backgroundColor: '#fbf9ec'}}>
         <CardBody>
           <CardTitle tag="h5">Women's Bottom</CardTitle>
           <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-          <MatButt href="/womenstops" color="primary">
+          <MatButt href="/womens-bots" color="primary">
         Link
       </MatButt>
           <CardText>

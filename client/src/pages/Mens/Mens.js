@@ -41,7 +41,7 @@ export default function Mens(props) {
         <CardBody>
           <CardTitle tag="h5">Men's Bottom</CardTitle>
           <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-          <MatButt href="/Menstops" color="primary">
+          <MatButt href="/mens-bots" color="primary">
         Link
       </MatButt>
           <CardText>

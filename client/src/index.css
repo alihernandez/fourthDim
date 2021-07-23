@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'Halant';
+  src: local('Halant'), url(./fonts/Nunito_Sans_and_Halant/Halant/Halant-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Halant2';
+  src: local('Halant2'), url(./fonts/Nunito_Sans_and_Halant/Halant/Halant-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito_Sans';
+  src: local('Nunito_Sans'), url(./fonts/Nunito_Sans_and_Halant/Nunito_Sans/NunitoSans-SemiBold.ttf) format('truetype');
+}
+
+/* @font-face {
+  font-family: 'Halant';
+  src: local('Halant'), url(./fonts/Nunito_Sans_and_Halant/Halant/Halant-Regular.ttf) format('truetype');
+} */
