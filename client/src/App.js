@@ -5,6 +5,7 @@ import {ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import Home from './pages/Home/Home';
 import Mens from './pages/Mens/Mens';
+import Menstops from './pages/Mens/MensTops';
 import Womens from './pages/Womens/Womens';
 import Contact from './pages/Contact/Contact';
 import Emailjs from './components/emailJS/emailSub';
@@ -20,6 +21,7 @@ function App() {
       <Route path='/mens' component={Mens} />
       <Route path='/womens' component={Womens} />
       <Route path='/contact' component={Contact} />
+      <Route path='/mens-tops' component={Menstops} />
       {/* <Route path='/annual' component={AnnualReport} />
       <Route path='/team' component={Teams} />
       <Route path='/blogs' component={Blogs} />

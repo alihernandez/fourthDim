@@ -1,5 +1,8 @@
 .footer {
-    background-color: rgba(0, 0, 0, 0.082);
+    background-color: #fbf9ec;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
 }
 
 /* .footer{
