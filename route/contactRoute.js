@@ -41,7 +41,7 @@ router.post('/contact', (req, res)=> {
     // define the mailOptions
     let mailOptions = {
         from: data.email,
-        to:'ali.hernandez9two@gmail.com',
+        to:'thefourthdimensiongws@gmail.com',
         subject:`Message from ${data.name}`,
         html:`
         <h3>Information<h3>

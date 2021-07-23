@@ -1,0 +1,30 @@
+.footer {
+    background-color: #fbf9ec;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+/* .footer{
+    height: 5rem;
+} */
+.socialLinks {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.contactBtn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.homeBtn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+}

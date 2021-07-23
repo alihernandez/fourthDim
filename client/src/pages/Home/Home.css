@@ -1,0 +1,37 @@
+.homeMain {
+    background-image: url("../../images/fourDimLogo.jpeg") ;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 100%;
+    font-family: Nunito_Sans;
+}
+
+.homeContent{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* width: 60%; */
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    background-color: #fbf9ec;
+    opacity: 0.95;
+    min-height: 100%;
+}
+
+.storeClothes {
+    width: 40%;
+    height: 35%;
+    align-self: center;
+    /* opacity: 1.0; */
+}
+
+.owners {
+    width: 40%;
+    height: 35%;
+    align-self: center;
+}
+
+.title {
+    font-family: Halant;
+}
