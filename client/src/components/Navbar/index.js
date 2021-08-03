@@ -14,10 +14,10 @@ const NavBar = (props) => {
   return (
     <div className="navi">
       <Navbar color="faded" light>
-        <NavbarBrand href="/" className="mr-auto" id="navTit">The Fourth Dimension</NavbarBrand>
+        <NavbarBrand href="/" className="navbar-brand mx-auto" id="navTit">The Fourth Dimension</NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar>
+          <Nav className="container-fluid" navbar>
             <NavItem>
               <NavLink href="/">Home</NavLink>
             </NavItem>
@@ -36,7 +36,7 @@ const NavBar = (props) => {
             <NavItem>
               <NavLink href="/sign-up">Sign Up</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
+            <UncontrolledDropdown className="ml-end" nav inNavbar>
               <DropdownToggle nav caret>
                 Mens
               </DropdownToggle>
