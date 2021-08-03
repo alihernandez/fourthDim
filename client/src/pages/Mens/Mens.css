@@ -38,15 +38,47 @@
     align-self: center;
     padding:2%;
 }
+.topsPage{
+    background-color: #fbf9ec;
+    padding:2rem;
+    background-image: url("../../images/fourDimLogo.jpeg") ;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
 
-#tops {
+#mensTops {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    background-color: #b37655d2;
+    border: #000000;
+    border-style: double;
+    border-width: 2rem;
+    width: 75%;
+    margin-left: 12.5%;
+    
+}
+
+#womensTops {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
     text-align: center;
     background-color: #b37655;
+    border: #000000;
+    border-style: double;
+    border-width: 2rem;
+    width: 75%;
+    margin-left: 12.5%;
     
+}
+
+.mensTit {
+    font-family: Halant-Bold;
+    font-weight: bolder;
 }
 
 
