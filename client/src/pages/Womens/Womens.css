@@ -32,7 +32,6 @@
 .crd {
     max-height: 15rem;
     max-width: 15rem;
-    
     justify-content: center;
     align-self: center;
     padding:2%;
@@ -48,7 +47,12 @@
     justify-content: center;
     align-self: center;
     text-align: center;
-    background-color: #b37655;
+    background-color: #b37655d2;
+    border: #00000096;
+    border-style:inset;
+    border-width: 1rem;
+    width: 75%;
+    margin-left: 12.5%;
     
 }
 

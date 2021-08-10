@@ -53,12 +53,20 @@
     align-self: center;
     text-align: center;
     background-color: #b37655d2;
-    border: #000000;
-    border-style: double;
-    border-width: 2rem;
+    border: #00000096;
+    border-style:inset;
+    border-width: 1rem;
     width: 75%;
     margin-left: 12.5%;
     
+}
+
+#imgList {
+    padding: 2.5rem;
+    height: 50rem;
+    overflow: scroll;
+    box-shadow: #522208;
+    box-sizing: border-box;
 }
 
 #womensTops {

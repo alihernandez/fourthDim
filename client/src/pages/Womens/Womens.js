@@ -6,6 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import MatButt from '@material-ui/core/Button';
 import './Womens.css';
 
+
 const useStyles = makeStyles((theme) => ({
     root: {
       '& > *': {
@@ -20,8 +21,11 @@ export default function Womens(props) {
 
   return (
     <div className="womensMain">
+
+      
         
         <div className="womensMainCont">
+          
       <Card className="crdBod" style={{backgroundColor: '#fbf9ec'}}>
         <CardImg className="crd" src={womensT} alt="Card image cap" />
         <CardBody>

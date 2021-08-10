@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     padding: '2rem',
     overflow: 'scroll',
     
-    height: 650,
+    // height: 650,
     // Promote the list into its own layer in Chrome. This cost memory, but helps keep FPS high.
     transform: 'translateZ(0)',
   },
@@ -67,7 +67,7 @@ export default function Menstops() {
         <div>
             <h1>Men's Tops</h1>
         </div>
-      <ImageList rowHeight={200} gap={15} cols={5} className={classes.imageList}>
+      <ImageList rowHeight={200} gap={15} cols={4} className={classes.imageList} id="imgList">
         {itemData.map((item) => (
           <ImageListItem key={item.img} cols={item.featured ? 3 : 1} rows={item.featured ? 2 : 1}>
             <img src={item.img} alt={item.title} />
