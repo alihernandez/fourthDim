@@ -33,7 +33,7 @@ router.post('/contact', (req, res)=> {
 
         //authenticate
         auth:{
-            user: process.env.user,
+            user: process.env.email,
             pass: process.env.pass
         }
     })
