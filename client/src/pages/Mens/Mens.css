@@ -4,14 +4,11 @@
     background-color: #b96b42;
     opacity: 0.9;
     padding: 3%;
-    background-image: url("../../images/favicon.png") ;
+    background-image: url("../../images/fourDimLogo.jpeg") ;
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 75% 100%;
+    background-size: 100% 100%;
     min-height: 100%;
     
-    min-height: 100vh;
     
 }
 .mensMainCont {
@@ -38,6 +35,10 @@
     align-self: center;
     padding:2%;
 }
+
+/* .card-img {
+    max-height: 5rem;
+} */
 .topsPage{
     background-color: #fbf9ec;
     padding:2rem;

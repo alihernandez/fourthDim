@@ -23,10 +23,10 @@ const SignUp = () => {
     console.log(email);
   };
 
-  const handleMessage = (e) => {
-    setMessage(e.target.value);
-    console.log(message);
-  };
+  // const handleMessage = (e) => {
+  //   setMessage(e.target.value);
+  //   console.log(message);
+  // };
 
   const formSubmit = async (e) => {
     e.preventDefault();

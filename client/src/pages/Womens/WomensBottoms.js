@@ -20,10 +20,11 @@ const useStyles = makeStyles((theme) => ({
     
   },
   imageList: {
-    width: 500,
+    width: 800,
     display: 'flex',
     alignSelf: 'center',
     padding: '2rem',
+    overflow: 'scroll',
     
     // height: 450,
     // Promote the list into its own layer in Chrome. This cost memory, but helps keep FPS high.
@@ -61,11 +62,12 @@ export default function Womenstops() {
   const classes = useStyles();
 
   return (
+    <div className="woBottomsPage">
     <div className={classes.root} id="tops">
         <div>
             <h1>Women's Bottoms</h1>
         </div>
-      <ImageList rowHeight={200} gap={1} className={classes.imageList}>
+      <ImageList rowHeight={200} gap={15} cols={4} className={classes.imageList}>
         {itemData.map((item) => (
           <ImageListItem key={item.img} cols={item.featured ? 2 : 1} rows={item.featured ? 2 : 1}>
             <img src={item.img} alt={item.title} />
@@ -83,6 +85,7 @@ export default function Womenstops() {
           </ImageListItem>
         ))}
       </ImageList>
+    </div>
     </div>
   );
 }

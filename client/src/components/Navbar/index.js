@@ -22,20 +22,10 @@ const NavBar = (props) => {
               <NavLink href="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/mens">Mens</NavLink>
+              <NavLink href="/mens">Rags for the dudes.</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/womens">Womens</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/contact">Accessories</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/sign-up">Sign Up</NavLink>
-            </NavItem>
+
             <UncontrolledDropdown className="ml-end" nav inNavbar>
               <DropdownToggle nav caret>
                 Mens
@@ -51,12 +41,42 @@ const NavBar = (props) => {
         Men's Bottoms
       </MatButt>
                 </DropdownItem>
-                <DropdownItem divider />
+              </DropdownMenu>
+            </UncontrolledDropdown>
+
+            <NavLink href="/womens">Fashion for the ladies!</NavLink>
+
+            <UncontrolledDropdown className="ml-end" nav inNavbar>
+              <DropdownToggle nav caret>
+                Womens
+              </DropdownToggle>
+              <DropdownMenu right>
                 <DropdownItem>
-                  Reset
+                <MatButt href="/womens-tops" color="primary">
+        Women's Tops
+      </MatButt>
+                </DropdownItem>
+                <DropdownItem>
+                <MatButt href="/womens-bots" color="primary">
+        Women's Bottoms
+      </MatButt>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+
+
+              
+            </NavItem>
+            <NavItem>
+              <NavLink href="/contact">Accessories</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/contact">Contact</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/sign-up">Sign Up</NavLink>
+            </NavItem>
+            
             {/* <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
             </NavItem> */}

@@ -1,18 +1,18 @@
 import React from 'react';
-import { Card, CardBody, Button, CardTitle, CardText, CardImg } from 'reactstrap';
+import { Card, CardBody, CardTitle, CardText, CardImg } from 'reactstrap';
 import MensT from "../../images/fourthDimMensT.jpeg";
 import MensBot from'../../images/fthBottom.jpeg';
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import MatButt from '@material-ui/core/Button';
 import './Mens.css';
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-      '& > *': {
-        margin: theme.spacing(1),
-      },
-    },
-  }));
+// const useStyles = makeStyles((theme) => ({
+//     root: {
+//       '& > *': {
+//         margin: theme.spacing(1),
+//       },
+//     },
+//   }));
 
 function imgTLink(){
   window.location.href='/mens-tops';
@@ -26,14 +26,14 @@ function imgBotLink() {
 
 export default function Mens(props) {
 
-      const classes = useStyles();
+      // const classes = useStyles();
 
   return (
     <div className="mensMain">
         
         <div className="mensMainCont">
       <Card className="mensCard" style={{backgroundColor: '#fbf9ec'}}>
-        <CardImg onClick={() => imgTLink()} src={MensT} alt="Card image cap"></CardImg>
+        <CardImg onClick={() => imgTLink()} src={MensT} className="crd" alt="Card image cap"></CardImg>
         <CardBody>
           <CardTitle className="mensTit" tag="h5">Men's Tops</CardTitle>
           <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>

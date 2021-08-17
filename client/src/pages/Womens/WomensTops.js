@@ -4,8 +4,8 @@ import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
 import ImageListItemBar from '@material-ui/core/ImageListItemBar';
 import IconButton from '@material-ui/core/IconButton';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import StarBorderIcon from '@material-ui/icons/StarBorder';
+// import ListSubheader from '@material-ui/core/ListSubheader';
+// import StarBorderIcon from '@material-ui/icons/StarBorder';
 import InfoIcon from '@material-ui/icons/Info';
 import itemData from './itemData';
 import './Womens.css';
@@ -64,11 +64,11 @@ export default function Womenstops() {
   const classes = useStyles();
 
   return (
-    <div className="topsPage">
+    <div className="wtopsPage">
     <div className={classes.root} id="tops">
       <ImageList rowHeight={500} className={classes.imageList}>
         <ImageListItem key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <h1>Women's Tops</h1>
+          <h3>Women's Tops</h3>
         </ImageListItem>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
