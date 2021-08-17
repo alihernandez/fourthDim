@@ -4,7 +4,9 @@ import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
 import ImageListItemBar from '@material-ui/core/ImageListItemBar';
 import IconButton from '@material-ui/core/IconButton';
-import StarBorderIcon from '@material-ui/icons/StarBorder';
+// import ListSubheader from '@material-ui/core/ListSubheader';
+// import StarBorderIcon from '@material-ui/icons/StarBorder';
+import InfoIcon from '@material-ui/icons/Info';
 import itemData from './itemData';
 import './Womens.css';
 
@@ -20,12 +22,13 @@ const useStyles = makeStyles((theme) => ({
     
   },
   imageList: {
-    width: 500,
+    width: 800,
     display: 'flex',
     alignSelf: 'center',
     padding: '2rem',
+    overflow: 'scroll',
     
-    // height: 450,
+    // height: 650,
     // Promote the list into its own layer in Chrome. This cost memory, but helps keep FPS high.
     transform: 'translateZ(0)',
   },
@@ -61,28 +64,28 @@ export default function Womenstops() {
   const classes = useStyles();
 
   return (
+    <div className="wtopsPage">
     <div className={classes.root} id="tops">
-        <div>
-            <h1>Women's Tops</h1>
-        </div>
-      <ImageList rowHeight={200} gap={1} className={classes.imageList}>
+      <ImageList rowHeight={500} className={classes.imageList}>
+        <ImageListItem key="Subheader" cols={2} style={{ height: 'auto' }}>
+          <h3>Women's Tops</h3>
+        </ImageListItem>
         {itemData.map((item) => (
-          <ImageListItem key={item.img} cols={item.featured ? 2 : 1} rows={item.featured ? 2 : 1}>
+          <ImageListItem key={item.img}>
             <img src={item.img} alt={item.title} />
             <ImageListItemBar
               title={item.title}
-              position="top"
+              subtitle={<span>{item.price} <br /> {item.description}</span>}
               actionIcon={
-                <IconButton aria-label={`star ${item.title}`} className={classes.icon}>
-                  <StarBorderIcon />
+                <IconButton aria-label={`info about ${item.title}`} className={classes.icon}>
+                  <InfoIcon />
                 </IconButton>
               }
-              actionPosition="left"
-              className={classes.titleBar}
             />
           </ImageListItem>
         ))}
       </ImageList>
+    </div>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 .womensMain {
     display: flex;
     flex-direction: column;
-    background-color: #e59885;
-    opacity: 0.9;
+    background-color: #fbf9ec;
+    opacity: 0.95;
     padding: 3%;
     
 }
@@ -11,7 +11,7 @@
     border: #e59885;
     border-style: double;
     box-shadow: #b37655;
-    background-image: url("../../images/fourMom.jpeg") ;
+    background-image: url("../../images/fourDimLogo.jpeg") ;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +32,6 @@
 .crd {
     max-height: 15rem;
     max-width: 15rem;
-    
     justify-content: center;
     align-self: center;
     padding:2%;
@@ -42,13 +41,30 @@
     opacity: 0.9;
 }
 
+.woBottomsPage{
+    background-color: #fbf9ec;
+    padding:2rem;
+    background-image: url("../../images/fourDimLogo.jpeg") ;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    min-height: 100%;
+}
+
 #tops {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
     text-align: center;
-    background-color: #b37655;
+    background-color: #b37655d2;
+    
+    border: #00000096;
+    border-style:inset;
+    border-width: 1rem;
+    margin: 5rem;
+    width: 75%;
+    height: 50rem;
+    margin-left: 12.5%;
     
 }
 

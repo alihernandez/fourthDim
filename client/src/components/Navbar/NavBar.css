@@ -1,3 +1,4 @@
+
 .navi {
     background-color: #fbf9ec;
     font-family: Halant2;
@@ -5,4 +6,10 @@
 
 #navTit {
     font-size: x-large;
+    text-align: center;
+    padding-left: 3.5%;
+}
+
+.Nav {
+    padding-left: 95%;
 }

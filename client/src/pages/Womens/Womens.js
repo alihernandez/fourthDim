@@ -1,27 +1,31 @@
 import React from 'react';
-import { Card, CardBody, Button, CardTitle, CardText, CardImg } from 'reactstrap';
+import { Card, CardBody, CardTitle, CardText, CardImg } from 'reactstrap';
 import womensT from "../../images/Womens.jpeg";
 import womensBot from'../../images/WomensBot.jpeg';
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import MatButt from '@material-ui/core/Button';
 import './Womens.css';
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-      '& > *': {
-        margin: theme.spacing(1),
-      },
-    },
-  }));
+
+// const useStyles = makeStyles((theme) => ({
+//     root: {
+//       '& > *': {
+//         margin: theme.spacing(1),
+//       },
+//     },
+//   }));
 
 export default function Womens(props) {
 
-      const classes = useStyles();
+      // const classes = useStyles();
 
   return (
     <div className="womensMain">
+
+      
         
         <div className="womensMainCont">
+          
       <Card className="crdBod" style={{backgroundColor: '#fbf9ec'}}>
         <CardImg className="crd" src={womensT} alt="Card image cap" />
         <CardBody>

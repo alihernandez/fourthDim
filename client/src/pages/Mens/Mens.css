@@ -4,14 +4,11 @@
     background-color: #b96b42;
     opacity: 0.9;
     padding: 3%;
-    background-image: url("../../images/favicon.png") ;
+    background-image: url("../../images/fourDimLogo.jpeg") ;
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 75% 100%;
+    background-size: 100% 100%;
     min-height: 100%;
     
-    min-height: 100vh;
     
 }
 .mensMainCont {
@@ -39,14 +36,58 @@
     padding:2%;
 }
 
-#tops {
+/* .card-img {
+    max-height: 5rem;
+} */
+.topsPage{
+    background-color: #fbf9ec;
+    padding:2rem;
+    background-image: url("../../images/fourDimLogo.jpeg") ;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+
+#mensTops {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    background-color: #b37655d2;
+    border: #00000096;
+    border-style:inset;
+    border-width: 1rem;
+    width: 75%;
+    margin-left: 12.5%;
+    
+}
+
+#imgList {
+    padding: 2.5rem;
+    height: 50rem;
+    overflow: scroll;
+    box-shadow: #522208;
+    box-sizing: border-box;
+}
+
+#womensTops {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
     text-align: center;
     background-color: #b37655;
+    border: #000000;
+    border-style: double;
+    border-width: 2rem;
+    width: 75%;
+    margin-left: 12.5%;
     
+}
+
+.mensTit {
+    font-family: Halant-Bold;
+    font-weight: bolder;
 }
 
 

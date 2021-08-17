@@ -11,7 +11,7 @@ import Womenstops from './pages/Womens/WomensTops';
 import WoBots from './pages/Womens/WomensBottoms';
 import Contact from './pages/Contact/Contact';
 import SignUp from './pages/Signup/Signup';
-import Emailjs from './components/emailJS/emailSub';
+// import Emailjs from './components/emailJS/emailSub';
 import Footer from './components/Footer/Footer';
 
 
